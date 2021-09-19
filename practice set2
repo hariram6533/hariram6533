@@ -1,0 +1,166 @@
+
+package learnjava;
+import java.util.Scanner;
+import javax.swing.JOptionPane;
+/*
+two types of datatypes in java :
+1.Primitive - byte(1 bytes), short(2 bytes), int(4 bytes), long(8 bytes), float(4 bytes), double(8 bytes), boolean(1 bit) char(2 byte) Note:- 1byte = 8 bit.
+2.Non primitive or Reference Data Type - 
+
+*/
+public class Learnjava {
+
+   
+    public static void main(String[] args) {
+   System.out.println("hello");
+  // String hari = "my name is hariram kumawat";
+   //System.out.println(hari);
+ 
+   /*
+   operaters in java
+   operand, operator, operand  =  result
+      4        +         7     =   11
+   types of operator in java
+   
+   Arithmetic operators = +  -  *  /  ++  --  %
+   Assignment operators = = += -=
+   Logical operators = &&  ||  ! 
+   Comparision operators =  ==  >= <=
+   Bitwise operators  =  & |  ( operates bitwise)
+   
+   
+   
+   
+   Arithmetic operators = 
+   */
+   //int num1=5 , num2=6;
+   
+   //System.out.println(num1+num2);
+   //num1 += 4;
+   //System.out.println(num1+num2);
+   /*
+   comparision operators = 
+   1. ==  -: checks for equality of two values
+   2. !=  -: checks if two values are not equal
+   3. <   -:
+   4. >
+   5. <=
+   6. >=
+   
+   */
+   /*
+   Logical operators:
+   1. && - Logical and operator (return true only if both conditions are true)
+   2. || - logical and operator (return true if any one condition is ture)
+   3. !  - logical and operator (reverse the tesult from true to false and vice versa)
+   */
+   // if else
+   //taking user input in java 
+   
+   //
+  /* Scanner sc = new Scanner(System.in);
+   System.out.println("Enter number 1");
+   int a = sc.nextInt();
+   System.out.println("enter number2");
+   int b = sc.nextInt();
+   System.out.println("your add is");
+   System.out.println(a+b);
+   */
+   /*System.out.println("enter yout number");
+   Scanner sc = new Scanner(System.in);
+   System.out.println(sc.hasNextInt());
+   */
+   /*Scanner sc = new Scanner(System.in);
+   System.out.println("Enter number first");
+   float a = sc.nextFloat();
+   System.out.println("enter your secont number");
+   float b = sc.nextFloat();
+   System.out.print("your numbers add is :- ");
+   System.out.println(a+b);
+*/
+   /*
+   int  age = 17;
+   boolean con = (age==18)
+   if(con){
+   System.out.println("you can apply for driving licence");
+   }
+   */
+ 
+   /*Scanner age = new Scanner(System.in);
+   System.out.println("ENTER YOUR AGE");
+   int a = age.nextInt();
+   if(a>=18){
+   System.out.println("you apply for driving licence");
+   }
+   else{
+   System.out.println("yor are not apply for driving licence"); 
+  }
+   */
+   
+   
+   /*
+   Calculater 
+   */
+   /*
+  int num1;
+        int num2;
+        String operation;
+
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("please enter the first number");
+        num1 = input.nextInt();
+
+        System.out.println("please enter the second number");
+        num2 = input.nextInt();
+
+        Scanner op = new Scanner(System.in);
+
+        System.out.println("Please enter operation");
+        operation = op.next();
+
+        if (operation == "+");
+        {
+            System.out.println("your answer is" + (num1 + num2));
+        }
+        if  (operation == "-");
+        {
+            System.out.println("your answer is" + (num1 - num2));
+        }
+
+        if (operation == "/");
+        {
+            System.out.println("your answer is" + (num1 / num2));
+        }
+        if (operation == "*")
+        {
+            System.out.println("your answer is" + (num1 * num2));
+        }*/
+   //int a;
+   //Scanner sc = new Scanner(System.in);
+   //System.out.println("enter a number");
+  // a = sc.nextInt();
+   /*for(int i=0; <=10; i++){
+   System.out.println(i);
+   }*/
+   
+  //  APPLY FOR DRIVING LICENCE 
+   /*Scanner sc =new Scanner(System.in);
+   System.out.println("Enter Your Age");
+   int a =sc.nextInt();
+    int b =18-a;
+    int c =60-a;
+   if(a<18){
+       System.out.println("you are not apply for driving licence in " + b + " years " );
+        
+   }
+   else{
+       
+       System.out.println("you are APPLY FOR LICENCE IN " + c + " YEARS");
+   }*/
+   
+   
+    }
+    
+}
